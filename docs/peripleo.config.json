@@ -5,7 +5,7 @@
     {
       "name": "Literary Fiction Database",
       "format": "LINKED_PLACES",
-      "src": "./data/example.json",
+      "src": "./data/new-test-data.json",
       "attribution": "Grant name, research group, etc. here"
     }
   ],
