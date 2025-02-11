@@ -7,7 +7,7 @@
       "@id": "https://w3id.org/new_db_2/905b0d11-c886-4d23-bb4d-962a647971a6",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "Ulysses",
         "author": "James Joyce",
         "original_publication_city": "Dublin",
         "wikipedia_link": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
@@ -35,7 +35,7 @@
       "@id": "https://w3id.org/new_db_2/49f05e2e-fe71-464a-9a12-5d4cb6e9edf9",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "A Study in Scarlet",
         "author": "Arthur Conan Doyle",
         "original_publication_city": "London",
         "wikipedia_link": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet",
@@ -63,7 +63,7 @@
       "@id": "https://w3id.org/new_db_2/4825fe1e-4438-4e4b-81fa-5e79e84bbc13",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "A Study in Scarlet",
         "author": "Arthur Conan Doyle",
         "original_publication_city": "London",
         "wikipedia_link": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet",
@@ -119,7 +119,7 @@
       "@id": "https://w3id.org/new_db_2/d239fb44-fbba-414f-a008-c64b148a7b38",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "Strange Case of Dr. Jekyll and Mr. Hyde",
         "author": "Alexandre Dumas",
         "original_publication_city": "Paris",
         "wikipedia_link": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
@@ -147,7 +147,7 @@
       "@id": "https://w3id.org/new_db_2/4cd91d53-5c94-4d93-a82a-4a812ef97c8b",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "The Three Musketeers",
         "author": "Alexandre Dumas",
         "original_publication_city": "Paris",
         "wikipedia_link": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
@@ -203,7 +203,7 @@
       "@id": "https://w3id.org/new_db_2/6cc117c5-c1e8-461b-ab74-3d70264ef997",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "Death in Venice",
         "author": "Alessandro Manzoni",
         "original_publication_city": "Milan",
         "wikipedia_link": "https://en.wikipedia.org/wiki/The_Betrothed",
@@ -231,7 +231,7 @@
       "@id": "https://w3id.org/new_db_2/7182721f-aa5f-4b9e-bac2-8cde37b05791",
       "type": "Feature",
       "properties": {
-        "title": "",
+        "title": "The Betrothed",
         "author": "Alessandro Manzoni",
         "original_publication_city": "Milan",
         "wikipedia_link": "https://en.wikipedia.org/wiki/The_Betrothed",
