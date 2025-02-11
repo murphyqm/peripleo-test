@@ -3,84 +3,90 @@
       {
         "id": "dublin-ulysses",
         "type": "Place",
-        "label": "Dublin",
-        "description": "Dublin is the setting for James Joyce's *Ulysses*, following the protagonist Leopold Bloom over the course of a single day in 1904.",
-        "location": {
-          "latitude": 53.3498,
-          "longitude": -6.2603
-        },
-        "author": "James Joyce",
-        "translator": "Gabrielle Carey",
-        "book": {
-          "title": "Ulysses",
-          "published_date": "1922-02-02",
-          "publisher": "Sylvia Beach",
-          "link": "https://www.jamesjoyce.ie"
-        },
-        "links": [
-          {
-            "type": "primaryTopicOf",
-            "identifier": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
+        "properties": {
+          "title": "Dublin",
+          "description": "Dublin is the setting for James Joyce's *Ulysses*, following the protagonist Leopold Bloom over the course of a single day in 1904.",
+          "author": "James Joyce",
+          "translator": "Gabrielle Carey",
+          "book": {
+            "title": "Ulysses",
+            "published_date": "1922-02-02",
+            "publisher": "Sylvia Beach",
+            "link": "https://www.jamesjoyce.ie"
           },
-          {
-            "type": "image",
-            "identifier": "https://www.geograph.org.uk/photo/2145375"
-          }
-        ]
+          "links": [
+            {
+              "type": "primaryTopicOf",
+              "identifier": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
+            },
+            {
+              "type": "image",
+              "identifier": "https://www.geograph.org.uk/photo/2145375"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.2603, 53.3498]
+        }
       },
       {
         "id": "london-sherlock-holmes",
         "type": "Place",
-        "label": "London",
-        "description": "London serves as the backdrop for Arthur Conan Doyle's Sherlock Holmes stories, with iconic locations such as 221B Baker Street featured prominently.",
-        "location": {
-          "latitude": 51.5074,
-          "longitude": -0.1278
-        },
-        "author": "Arthur Conan Doyle",
-        "book": {
-          "title": "A Study in Scarlet",
-          "published_date": "1887-11-01",
-          "publisher": "Ward, Lock & Co.",
-          "link": "https://www.sherlockholmesmuseum.com"
-        },
-        "links": [
-          {
-            "type": "primaryTopicOf",
-            "identifier": "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+        "properties": {
+          "title": "Sherlock Holmes' London",
+          "description": "London serves as the backdrop for Arthur Conan Doyle's Sherlock Holmes stories, with iconic locations such as 221B Baker Street featured prominently.",
+          "author": "Arthur Conan Doyle",
+          "book": {
+            "title": "A Study in Scarlet",
+            "published_date": "1887-11-01",
+            "publisher": "Ward, Lock & Co.",
+            "link": "https://www.sherlockholmesmuseum.com"
           },
-          {
-            "type": "image",
-            "identifier": "https://www.geograph.org.uk/photo/3294919"
-          }
-        ]
+          "links": [
+            {
+              "type": "primaryTopicOf",
+              "identifier": "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+            },
+            {
+              "type": "image",
+              "identifier": "https://www.geograph.org.uk/photo/3294919"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.1278, 51.5074]
+        }
       },
       {
         "id": "edinburgh-jekyll-hyde",
         "type": "Place",
-        "label": "Edinburgh",
-        "description": "Edinburgh provides the setting for Robert Louis Stevenson's *Strange Case of Dr. Jekyll and Mr. Hyde*, exploring the city's dual nature through the character's transformation.",
-        "location": {
-          "latitude": 55.9533,
-          "longitude": -3.1883
-        },
-        "author": "Robert Louis Stevenson",
-        "book": {
-          "title": "Strange Case of Dr. Jekyll and Mr. Hyde",
-          "published_date": "1886-01-01",
-          "publisher": "Longmans, Green & Co.",
-          "link": "https://www.robertlouisstevenson.org"
-        },
-        "links": [
-          {
-            "type": "primaryTopicOf",
-            "identifier": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
+        "properties": {
+          "title": "Edinburgh",
+          "description": "Edinburgh provides the setting for Robert Louis Stevenson's *Strange Case of Dr. Jekyll and Mr. Hyde*, exploring the city's dual nature through the character's transformation.",
+          "author": "Robert Louis Stevenson",
+          "book": {
+            "title": "Strange Case of Dr. Jekyll and Mr. Hyde",
+            "published_date": "1886-01-01",
+            "publisher": "Longmans, Green & Co.",
+            "link": "https://www.robertlouisstevenson.org"
           },
-          {
-            "type": "image",
-            "identifier": "https://www.geograph.org.uk/photo/2829716"
-          }
-        ]
+          "links": [
+            {
+              "type": "primaryTopicOf",
+              "identifier": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
+            },
+            {
+              "type": "image",
+              "identifier": "https://www.geograph.org.uk/photo/2829716"
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-3.1883, 55.9533]
+        }
       }
     ]
   }
