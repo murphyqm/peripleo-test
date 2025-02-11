@@ -1,0 +1,94 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Dublin",
+          "author": "James Joyce",
+          "translator": "Gabrielle Carey",
+          "book": {
+            "title": "Ulysses",
+            "published_date": "1922-02-02",
+            "publisher": "Sylvia Beach",
+            "link": "https://www.jamesjoyce.ie"
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.2603, 53.3498]
+        },
+        "types": [
+          { "label": "city", "identifier": "https://www.wikidata.org/wiki/Q26221" }
+        ],
+        "descriptions": [
+          { "@id": "https://en.wikipedia.org/wiki/Ulysses_(novel)", "value": "Ulysses is a landmark modernist novel by James Joyce, set in Dublin and focusing on the experiences of its protagonist Leopold Bloom over the course of a single day in 1904." }
+        ],
+        "depictions": [
+          { "@id": "https://www.geograph.org.uk/photo/2145375", "title": "View of Dublin City" }
+        ],
+        "links": [
+          { "type": "primaryTopicOf", "identifier": "https://www.britannica.com/topic/Ulysses-novel-by-Joyce" }
+        ]
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Sherlock Holmes' London",
+          "author": "Arthur Conan Doyle",
+          "book": {
+            "title": "A Study in Scarlet",
+            "published_date": "1887-11-01",
+            "publisher": "Ward, Lock & Co.",
+            "link": "https://www.sherlockholmesmuseum.com"
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.1278, 51.5074]
+        },
+        "types": [
+          { "label": "city", "identifier": "https://www.wikidata.org/wiki/Q84" }
+        ],
+        "descriptions": [
+          { "@id": "https://en.wikipedia.org/wiki/Sherlock_Holmes", "value": "Sherlock Holmes is a fictional detective created by Sir Arthur Conan Doyle. Holmes is based in London, where he resides at 221B Baker Street." }
+        ],
+        "depictions": [
+          { "@id": "https://www.geograph.org.uk/photo/3294919", "title": "Baker Street, London" }
+        ],
+        "links": [
+          { "type": "primaryTopicOf", "identifier": "https://www.britannica.com/biography/Arthur-Conan-Doyle" }
+        ]
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Edinburgh",
+          "author": "Robert Louis Stevenson",
+          "book": {
+            "title": "Strange Case of Dr Jekyll and Mr Hyde",
+            "published_date": "1886-01-01",
+            "publisher": "Longmans, Green & Co.",
+            "link": "https://www.robertlouisstevenson.org"
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-3.1883, 55.9533]
+        },
+        "types": [
+          { "label": "city", "identifier": "https://www.wikidata.org/wiki/Q1860" }
+        ],
+        "descriptions": [
+          { "@id": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde", "value": "Strange Case of Dr Jekyll and Mr Hyde is a novella by Robert Louis Stevenson, set in Edinburgh, where the story explores themes of duality in human nature." }
+        ],
+        "depictions": [
+          { "@id": "https://www.geograph.org.uk/photo/2829716", "title": "Edinburgh Old Town" }
+        ],
+        "links": [
+          { "type": "primaryTopicOf", "identifier": "https://www.britannica.com/biography/Robert-Louis-Stevenson" }
+        ]
+      }
+    ]
+  }
+  
