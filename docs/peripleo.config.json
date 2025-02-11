@@ -10,7 +10,9 @@
     }
   ],
   "facets": [
-    "type"
+    { "name": "title", "path": ["properties", "title"] },
+    { "name": "author", "path": ["properties", "author"] },
+    { "name": "category", "path": ["properties", "category"] }
   ],
   "link_icons": [
     { "pattern": "maps.google.com",  "img": "./logos/maps.google.com.png", "label": "Google Maps" },

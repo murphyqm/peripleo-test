@@ -1,1 +1,224 @@
-{"@id":"https://w3id.org/new_literature_db","type":"FeatureCollection","@context":"https://w3id.org/locolligo/contexts/linkedplaces.jsonld","features":[{"@id":1,"type":"Feature","properties":{"title":"Ulysses","author":"James Joyce","original_publication_city":"Dublin","translation_city":"Paris","wikipedia_link":"https://en.wikipedia.org/wiki/Ulysses_(novel)","image_link":"https://upload.wikimedia.org/wikipedia/commons/1/17/Ulysses_%28first_edition%29.jpg","category":"Original Publication City"},"geometry":{"type":"Point","coordinates":[-6.2603,53.3498]}},{"@id":2,"type":"Feature","properties":{"title":"A Study in Scarlet","author":"Arthur Conan Doyle","original_publication_city":"London","translation_city":"New York","wikipedia_link":"https://en.wikipedia.org/wiki/A_Study_in_Scarlet","image_link":"https://upload.wikimedia.org/wikipedia/commons/7/73/A_Study_in_Scarlet_-_first_edition_cover.jpg","category":"Original Publication City"},"geometry":{"type":"Point","coordinates":[-0.1278,51.5074]}},{"@id":2,"type":"Feature","properties":{"title":"A Study in Scarlet","author":"Arthur Conan Doyle","original_publication_city":"London","translation_city":"New York","wikipedia_link":"https://en.wikipedia.org/wiki/A_Study_in_Scarlet","image_link":"https://upload.wikimedia.org/wikipedia/commons/7/73/A_Study_in_Scarlet_-_first_edition_cover.jpg","category":"Location in the Book"},"geometry":{"type":"Point","coordinates":[-0.1585,51.5235]}},{"@id":3,"type":"Feature","properties":{"title":"Strange Case of Dr. Jekyll and Mr. Hyde","author":"Robert Louis Stevenson","original_publication_city":"Edinburgh","translation_city":"New York","wikipedia_link":"https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde","image_link":"https://upload.wikimedia.org/wikipedia/commons/a/a3/Strange_case_of_dr_jekyll_and_mr_hyde.jpg","category":"Original Publication City"},"geometry":{"type":"Point","coordinates":[-3.1883,55.9533]}},{"@id":4,"type":"Feature","properties":{"title":"The Three Musketeers","author":"Alexandre Dumas","original_publication_city":"Paris","translation_city":"London","wikipedia_link":"https://en.wikipedia.org/wiki/The_Three_Musketeers","image_link":"https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Three_Musketeers_%28novel%29.jpg","category":"Original Publication City"},"geometry":{"type":"Point","coordinates":[2.3522,48.8566]}},{"@id":4,"type":"Feature","properties":{"title":"The Three Musketeers","author":"Alexandre Dumas","original_publication_city":"Paris","translation_city":"London","wikipedia_link":"https://en.wikipedia.org/wiki/The_Three_Musketeers","image_link":"https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Three_Musketeers_%28novel%29.jpg","category":"Location in the Book"},"geometry":{"type":"Point","coordinates":[2.1204,48.8049]}},{"@id":5,"type":"Feature","properties":{"title":"Death in Venice","author":"Thomas Mann","original_publication_city":"Berlin","translation_city":"French Translation","wikipedia_link":"https://en.wikipedia.org/wiki/Death_in_Venice","image_link":"https://upload.wikimedia.org/wikipedia/commons/5/5a/Death_in_Venice_-_first_edition_cover.jpg","category":"Location in the Book"},"geometry":{"type":"Point","coordinates":[12.3155,45.4408]}},{"@id":6,"type":"Feature","properties":{"title":"The Betrothed","author":"Alessandro Manzoni","original_publication_city":"Milan","translation_city":"Berlin","wikipedia_link":"https://en.wikipedia.org/wiki/The_Betrothed","image_link":"https://upload.wikimedia.org/wikipedia/commons/4/47/The_Betrothed.jpg","category":"Original Publication City"},"geometry":{"type":"Point","coordinates":[9.19,45.4642]}},{"@id":6,"type":"Feature","properties":{"title":"The Betrothed","author":"Alessandro Manzoni","original_publication_city":"Milan","translation_city":"Berlin","wikipedia_link":"https://en.wikipedia.org/wiki/The_Betrothed","image_link":"https://upload.wikimedia.org/wikipedia/commons/4/47/The_Betrothed.jpg","category":"Location in the Book"},"geometry":{"type":"Point","coordinates":[8.9513,46.003]}},{"@id":7,"type":"Feature","properties":{"title":"Don Quixote","author":"Miguel de Cervantes","original_publication_city":"Madrid","translation_city":"London","wikipedia_link":"https://en.wikipedia.org/wiki/Don_Quixote","image_link":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Don_Quixote.jpg","category":"Location in the Book"},"geometry":{"type":"Point","coordinates":[-4.0273,39.8628]}}],"indexing":{"@type":"Dataset","name":"new literature db","description":"","license":"https://creativecommons.org/licenses/by/4.0/","identifier":"https://w3id.org/new_literature_db","temporalCoverage":"1066/2022","spatialCoverage":{"@type":"GeoShape","box":"0.580101 0.00149 60.355 9.78667","geo":{"@type":"GeoShape","box":"39.8628 0.1278 55.9533 12.3155"}}}}
+{
+  "@id": "https://w3id.org/new_literature_db",
+  "type": "FeatureCollection",
+  "@context": "https://w3id.org/locolligo/contexts/linkedplaces.jsonld",
+  "features": [
+    {
+      "@id": 1,
+      "type": "Feature",
+      "properties": {
+        "title": "Ulysses",
+        "author": "James Joyce",
+        "original_publication_city": "Dublin",
+        "translation_city": "Paris",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ulysses_%28first_edition%29.jpg",
+        "category": "Original Publication City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2603,
+          53.3498
+        ]
+      }
+    },
+    {
+      "@id": 2,
+      "type": "Feature",
+      "properties": {
+        "title": "A Study in Scarlet",
+        "author": "Arthur Conan Doyle",
+        "original_publication_city": "London",
+        "translation_city": "New York",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/73/A_Study_in_Scarlet_-_first_edition_cover.jpg",
+        "category": "Original Publication City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1278,
+          51.5074
+        ]
+      }
+    },
+    {
+      "@id": 2,
+      "type": "Feature",
+      "properties": {
+        "title": "A Study in Scarlet",
+        "author": "Arthur Conan Doyle",
+        "original_publication_city": "London",
+        "translation_city": "New York",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/73/A_Study_in_Scarlet_-_first_edition_cover.jpg",
+        "category": "Location in the Book"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1585,
+          51.5235
+        ]
+      }
+    },
+    {
+      "@id": 3,
+      "type": "Feature",
+      "properties": {
+        "title": "Strange Case of Dr. Jekyll and Mr. Hyde",
+        "author": "Robert Louis Stevenson",
+        "original_publication_city": "Edinburgh",
+        "translation_city": "New York",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Strange_case_of_dr_jekyll_and_mr_hyde.jpg",
+        "category": "Original Publication City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1883,
+          55.9533
+        ]
+      }
+    },
+    {
+      "@id": 4,
+      "type": "Feature",
+      "properties": {
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "original_publication_city": "Paris",
+        "translation_city": "London",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Three_Musketeers_%28novel%29.jpg",
+        "category": "Original Publication City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      }
+    },
+    {
+      "@id": 4,
+      "type": "Feature",
+      "properties": {
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "original_publication_city": "Paris",
+        "translation_city": "London",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Three_Musketeers_%28novel%29.jpg",
+        "category": "Location in the Book"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1204,
+          48.8049
+        ]
+      }
+    },
+    {
+      "@id": 5,
+      "type": "Feature",
+      "properties": {
+        "title": "Death in Venice",
+        "author": "Thomas Mann",
+        "original_publication_city": "Berlin",
+        "translation_city": "French Translation",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Death_in_Venice",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Death_in_Venice_-_first_edition_cover.jpg",
+        "category": "Location in the Book"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3155,
+          45.4408
+        ]
+      }
+    },
+    {
+      "@id": 6,
+      "type": "Feature",
+      "properties": {
+        "title": "The Betrothed",
+        "author": "Alessandro Manzoni",
+        "original_publication_city": "Milan",
+        "translation_city": "Berlin",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/The_Betrothed",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/47/The_Betrothed.jpg",
+        "category": "Original Publication City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.19,
+          45.4642
+        ]
+      }
+    },
+    {
+      "@id": 6,
+      "type": "Feature",
+      "properties": {
+        "title": "The Betrothed",
+        "author": "Alessandro Manzoni",
+        "original_publication_city": "Milan",
+        "translation_city": "Berlin",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/The_Betrothed",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/47/The_Betrothed.jpg",
+        "category": "Location in the Book"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9513,
+          46.003
+        ]
+      },
+      "id": 8
+    },
+    {
+      "@id": 7,
+      "type": "Feature",
+      "properties": {
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "original_publication_city": "Madrid",
+        "translation_city": "London",
+        "wikipedia_link": "https://en.wikipedia.org/wiki/Don_Quixote",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Don_Quixote.jpg",
+        "category": "Location in the Book"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0273,
+          39.8628
+        ]
+      }
+    }
+  ],
+  "indexing": {
+    "@type": "Dataset",
+    "name": "new literature db",
+    "description": "",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "identifier": "https://w3id.org/new_literature_db",
+    "temporalCoverage": "1066/2022",
+    "spatialCoverage": {
+      "@type": "GeoShape",
+      "box": "0.580101 0.00149 60.355 9.78667",
+      "geo": {
+        "@type": "GeoShape",
+        "box": "39.8628 0.1278 55.9533 12.3155"
+      }
+    }
+  }
+}
