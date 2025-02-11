@@ -1,8 +1,8 @@
 {
-    "places": [
+    "type": "FeatureCollection",
+    "features": [
       {
-        "id": "dublin-ulysses",
-        "type": "Place",
+        "type": "Feature",
         "properties": {
           "title": "Dublin",
           "description": "Dublin is the setting for James Joyce's *Ulysses*, following the protagonist Leopold Bloom over the course of a single day in 1904.",
@@ -31,10 +31,9 @@
         }
       },
       {
-        "id": "london-sherlock-holmes",
-        "type": "Place",
+        "type": "Feature",
         "properties": {
-          "title": "Sherlock Holmes' London",
+          "title": "London",
           "description": "London serves as the backdrop for Arthur Conan Doyle's Sherlock Holmes stories, with iconic locations such as 221B Baker Street featured prominently.",
           "author": "Arthur Conan Doyle",
           "book": {
@@ -60,8 +59,7 @@
         }
       },
       {
-        "id": "edinburgh-jekyll-hyde",
-        "type": "Place",
+        "type": "Feature",
         "properties": {
           "title": "Edinburgh",
           "description": "Edinburgh provides the setting for Robert Louis Stevenson's *Strange Case of Dr. Jekyll and Mr. Hyde*, exploring the city's dual nature through the character's transformation.",
